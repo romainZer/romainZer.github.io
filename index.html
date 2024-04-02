@@ -1,11 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/output.css" rel="stylesheet" />
+    <!--Page title-->
     <title>Romain Zervo</title>
   </head>
-  <body>
-    <h1>Hello, World !</h1>
+  <!--Background and general text properties-->
+  <body class="bg-gray-800 text-gray-100 font-sans">
+    <!--Header with navbar-->
+    <header>
+      <nav
+        class="fixed w-full flex h-8 p-8 justify-between items-center z-10 max-md:justify-center max-md:relative max-md:hidden transition duration-500"
+      >
+        <!--Logo-->
+        <a href="index.html" class="text-2xl font-extrabold">Romain Zervo</a>
+        <!--Links-->
+        <ul class="flex max-md:hidden">
+          <li class="ml-auto flex items-center justify-center">
+            <a href="#" class="mx-4 hover:text-gray-400">Accueil</a>
+          </li>
+          <li class="ml-auto flex items-center justify-center">
+            <a href="#" class="mx-4 hover:text-gray-400">A propos</a>
+          </li>
+          <li class="ml-auto flex items-center justify-center">
+            <a href="#" class="mx-4 hover:text-gray-400">Réalisations</a>
+          </li>
+          <li class="ml-auto flex items-center justify-center">
+            <a href="#" class="mx-4 hover:text-gray-400">Tarifs</a>
+          </li>
+          <li class="ml-auto flex items-center justify-center">
+            <a href="#" class="bg-indigo-700 p-1.5 rounded-md ml-3">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <script src="./js/script.js"></script>
+
+    <!--Aside with buttons links-->
+    <aside
+      class="container fixed h-full w-auto flex justify-center items-center flex-col pl-2 max-md:hidden"
+    >
+      <!--Github-->
+      <a
+        href="https://github.com/romainZer"
+        class="flex justify-center items-center"
+      >
+        <img
+          src="img/icons/github.png"
+          alt="github logo"
+          class="w-8 my-2 opacity-60 hover:opacity-100 transition-opacity ease-in-out duration-300"
+        />
+      </a>
+      <!--Linked-in-->
+      <a
+        href="https://www.linkedin.com/in/romain-zervo-9172a3295/?originalSubdomain=fr"
+        class="flex justify-center items-center"
+      >
+        <img
+          src="img/icons/logo-linkedin.png"
+          alt="linked-in logo"
+          class="w-8 my-2 opacity-60 hover:opacity-100 transition-opacity ease-in-out duration-300"
+        />
+      </a>
+    </aside>
+
+    <!--Main section-->
+    <main>
+      <!--Text&Description + image section + buttons-->
+      <section
+        class="w-full h-screen flex flex-row max-md:flex-col-reverse justify-center items-center max-md:pt-0"
+      >
+        <!--Text and description-->
+        <div
+          class="md:w-1/3 md:mr-3 max-lg:w-1/2 max-md:text-center max-md:flex max-md:items-center max-md:flex-col max-md:pb-5 max-md:w-screen max-md:p-5"
+        >
+          <p class="text-3xl pl-1 mb-1 font-semibold text-indigo-100">
+            Romain Zervo
+          </p>
+          <h2
+            class="text-5xl bg-gradient-to-r from-indigo-700 to-indigo-300 text-transparent bg-clip-text font-bold drop-shadow-lg pb-4"
+          >
+            Développeur Web
+          </h2>
+          <p class="text-2xl font-semibold pb-1 pt-2">
+            Besoin d'un
+            <span class="font-bold text-2xl underline">site web</span> ?
+          </p>
+          <p class="text-lg w-3/4 max-md:w-full">
+            Construisons ensemble votre site internet.
+          </p>
+          <p class="text-lg w-3/4 max-md:w-full">
+            Je suis là pour vous accompagner dans leur démarche de création de
+            site web, offrant un service sur-mesure adapté à vos besoins
+          </p>
+          <!--Buttons-->
+          <div class="mt-9">
+            <button
+              class="bg-indigo-600 rounded-md p-4 text-center mr-3 shadow-md hover:shadow-sm transition-shadow duration-300 ease-in-out max-md:transition-none"
+            >
+              Découvrir
+            </button>
+            <button
+              class="bg-indigo-600/30 rounded-md p-4 text-center ml-3 hover:shadow-md transition-shadow duration-300 ease-in-out max-md:transition-none"
+            >
+              Contacter
+            </button>
+          </div>
+        </div>
+
+        <!--Romain's Image-->
+        <div class="ml-2">
+          <img
+            src="img/other/3dModel.jpg"
+            alt=""
+            class="w-80 rounded-full transform-none drop-shadow-xl max-md:w-64 max-md:mb-10"
+          />
+        </div>
+      </section>
+
+      <!--About section-->
+      <section>
+        <!--Compagny transition-->
+        <article class="flex justify-center items-center p-10 bg-gray-900">
+          <h2 class="text-3xl text-gray-200">
+            Envie d'améliorer
+            <span class="font-bold">votre visibilité </span>?
+          </h2>
+        </article>
+        <!--Visibility-->
+        <h2>Spécialisé dans la transition des entreprises</h2>
+        <!--Best solution for your needs-->
+        <h2>Des solutions sur mesure adaptées à vos besoins.</h2>
+      </section>
+    </main>
   </body>
 </html>
