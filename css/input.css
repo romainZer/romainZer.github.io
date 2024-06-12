@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.section-frame {
+  @apply w-full h-screen min-h-[800px] flex flex-col justify-center items-center;
+}
