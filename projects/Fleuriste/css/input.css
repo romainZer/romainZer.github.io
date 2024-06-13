@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: MrsSaintDelafield;
+    src: url(../fonts/Mrs_Saint_Delafield/MrsSaintDelafield-Regular.ttf);
+  }
+}

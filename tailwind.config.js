@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "florist-illustration": "url('/img/other/floristIllustration.png')",
+      },
+    },
   },
   plugins: [],
 };

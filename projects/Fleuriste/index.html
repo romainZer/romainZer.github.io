@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Stylesheet link-->
+    <link rel="stylesheet" href="css/output.css" />
+    <!--Title-->
+    <title>Sola Fleurs</title>
+  </head>
+
+  <body class="overflow-x-hidden">
+    <!--Header-->
+    <header>
+      <!--Navbar container-->
+      <nav
+        class="flex flex-col justify-evenly items-center h-40 shadow-black drop-shadow-xl bg-rose-100"
+      >
+        <h2 class="font-MrsSaintDelafield text-5xl">Sola Fleurs</h2>
+        <ul class="max-md:hidden flex flex-row">
+          <li class="flex flex-col justify-center items-center">
+            <a
+              href="#section-about-me"
+              class="mx-3 hover:opacity-80 transition-opacity duration-300 ease-in"
+              >A PROPOS</a
+            >
+            <div
+              class="w-0 h-0.5 bg-rose-900 transition-all duration-300"
+            ></div>
+          </li>
+          &bull;
+          <li class="flex flex-col justify-center items-center">
+            <a
+              href="#section-creations"
+              class="mx-3 hover:opacity-80 transition-opacity duration-300 ease-in"
+              >MES CREATIONS</a
+            >
+            <div
+              class="w-0 h-0.5 bg-rose-900 transition-all duration-300"
+            ></div>
+          </li>
+          &bull;
+          <li class="flex flex-col justify-center items-center">
+            <a
+              href="#section-care"
+              class="mx-3 hover:opacity-80 transition-opacity duration-300 ease-in"
+              >CONSEILS D'ENTRETIEN</a
+            >
+            <div
+              class="w-0 h-0.5 bg-rose-900 transition-all duration-300"
+            ></div>
+          </li>
+          &bull;
+          <li class="flex flex-col justify-center items-center">
+            <a
+              href="#section-questions"
+              class="mx-3 hover:opacity-80 transition-opacity duration-300 ease-in"
+              >QUESTIONS</a
+            >
+            <div
+              class="w-0 h-0.5 bg-rose-900 transition-all duration-300"
+            ></div>
+          </li>
+          &bull;
+          <li class="flex flex-col justify-center items-center">
+            <a
+              href="contact.html"
+              class="mx-3 hover:opacity-80 transition-opacity duration-300 ease-in"
+              >ME CONTACTER</a
+            >
+            <div
+              class="w-0 h-0.5 bg-rose-900 transition-all duration-300"
+            ></div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!--Hero section-->
+      <section
+        class="relative w-screen h-[70vh] flex flex-col justify-center items-center text-center bg-[url('../img/florist3.jpg')] bg-no-repeat bg-cover bg-fixed max-md:bg-center"
+        id="hero-section"
+      >
+        <!--Background filter layer-->
+        <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+        <!-- Texte Hello dans un h2 -->
+        <h2 class="z-10 text-white text-7xl font-MrsSaintDelafield">
+          Bienvenue chez Sola Fleurs
+        </h2>
+        <p class="z-10 text-gray-200 font-light text-xl">
+          Fleuriste dijonnaise depuis 2005
+        </p>
+        <p class="z-10 text-gray-200 font-light text-sm">
+          12 boulevard de la Marianne
+        </p>
+        <a
+          href="#section-about-me"
+          class="z-10 bg-rose-300 border-rose-300 border-2 mt-12 p-5 text-white hover:bg-transparent hover:border-white hover:border-2 transition-all duration-200 ease-in"
+          >DÉCOUVRIR</a
+        >
+      </section>
+
+      <!--About me section-->
+      <section
+        class="flex justify-center items-center min-h-[700px]"
+        id="section-about-me"
+      >
+        <article
+          class="flex flex-row justify-center items-center h-[500px] w-3/5 max-md:flex-col-reverse max-md:text-center max-lg:flex-row-reverse max-lg:w-full"
+        >
+          <!--Title and description-->
+          <div>
+            <!--Title and underline-->
+            <div class="inline-block">
+              <h3 class="text-2xl font-bold">A propos de moi</h3>
+              <div class="h-0.5 mt-0.5 drop-shadow-md bg-rose-700"></div>
+            </div>
+
+            <!--Description-->
+            <p class="mt-5 mr-5 text-justify max-md:text-center max-md:p-5">
+              Je suis passionnée par l'art floral depuis mon enfance. J'ai
+              décidé d'en faire mon métier et de partager ma passion avec le
+              monde. Avec des années d'expérience dans le domaine, je m'efforce
+              de créer des arrangements floraux uniques qui apportent de la joie
+              et de la beauté à chaque occasion. Mon objectif est de capturer
+              l'essence de chaque fleur et de transmettre des émotions à travers
+              mes créations.
+            </p>
+            <!--Button-->
+            <a
+              href="#"
+              class="bg-rose-700 border-2 border-rose-700 p-5 text-white inline-block my-5 max-lg:rounded-md hover:border-black hover:text-black hover:bg-transparent transition-all duration-200 ease-in"
+              >MES CREATIONS</a
+            >
+          </div>
+
+          <!--Image-->
+          <img
+            src="img/florist.jpg"
+            alt="fleuriste"
+            class="w-72 ml-5 shadow-lg max-md:rounded-full max-md:w-52 max-md:mb-5 max-lg:w-64 max-lg:mr-5"
+          />
+        </article>
+      </section>
+
+      <!--My  creations section-->
+      <section
+        id="section-creations"
+        class="bg-rose-100 m-3 pt-20 pb-20 pl-10 pr-10 flex justify-center flex-col items-center"
+      >
+        <!--Title-->
+        <div class="inline-block mb-10">
+          <h3 class="text-2xl font-bold text-center">
+            Quelques-unes de mes créations
+          </h3>
+          <div class="h-0.5 drop-shadow-md bg-rose-700"></div>
+        </div>
+        <!--Bouquets container-->
+        <div class="w-full flex justify-evenly items-center flex-row flex-wrap">
+          <!--Bouquet 1-->
+          <article>
+            <div
+              class="flex flex-col justify-center items-center bg-rose-50 p-5 shadow-md my-3 w-full"
+            >
+              <img
+                src="img/flower_arrangement_1.jpg"
+                alt="Arrangement floral"
+                class="w-72 h-96 object-cover"
+              />
+              <h3 class="font-MrsSaintDelafield text-4xl mt-3">
+                Composition camaïeu
+              </h3>
+            </div>
+          </article>
+
+          <!--Bouquet 2-->
+          <article>
+            <div
+              class="flex flex-col justify-center items-center bg-rose-50 p-5 shadow-md my-3"
+            >
+              <img
+                src="img/flower_arrangement_2.jpg"
+                alt="Arrangement floral"
+                class="w-72 h-96 object-cover"
+              />
+              <h3 class="font-MrsSaintDelafield text-4xl mt-3">
+                Bouquet couleur
+              </h3>
+            </div>
+          </article>
+
+          <!--Bouquet 3-->
+          <article>
+            <div
+              class="flex flex-col justify-center items-center bg-rose-50 p-5 shadow-md my-3"
+            >
+              <img
+                src="img/flower_arrangement_3.jpg"
+                alt="Arrangement floral"
+                class="w-72 h-96 object-cover"
+              />
+              <h3 class="font-MrsSaintDelafield text-4xl mt-3">
+                Composition été
+              </h3>
+            </div>
+          </article>
+
+          <!--Bouquet 4-->
+          <article>
+            <div
+              class="flex flex-col justify-center items-center bg-rose-50 p-5 shadow-md my-3 container"
+            >
+              <img
+                src="img/flower_arrangement_4.jpg"
+                alt="Arrangement floral"
+                class="w-72 h-96 object-cover"
+              />
+              <h3 class="font-MrsSaintDelafield text-4xl mt-3">
+                Bouquet de roses
+              </h3>
+            </div>
+          </article>
+        </div>
+
+        <!--Contact button-->
+        <a
+          href="#"
+          class="bg-rose-700 border-2 border-rose-700 p-5 mt-10 text-white inline-block my-5 max-lg:rounded-md hover:border-black hover:text-black hover:bg-transparent transition-all duration-200 ease-in"
+          >ME CONTACTER</a
+        >
+      </section>
+
+      <!--Flower care section-->
+      <section
+        class="h-screen flex justify-center items-center"
+        id="section-care"
+      >
+        <div
+          class="bg-[url('../img/flower_baneer.jpg')] h-[450px] w-full bg-cover inline-block relative max-lg:h-[700px] max-md:bg-fixed max-sm:bg-none"
+        >
+          <div
+            class="bg-gradient-to-br from-rose-300 to-gray-600 opacity-50 absolute inset-0 max-sm:from-rose-900 max-sm:to-rose-300"
+          ></div>
+          <div
+            class="z-10 text-white text-center h-full w-full flex flex-col justify-center items-center"
+          >
+            <h2 class="text-5xl drop-shadow-md font-MrsSaintDelafield">
+              Conseil floral
+            </h2>
+            <img src="img/fleur.png" alt="" class="w-7 my-5" />
+            <div class="px-20 text-center max-md:px-5">
+              <p class="drop-shadow-md text-lg max-sm:drop-shadow-lg">
+                Pour maintenir vos fleurs en bonne santé, commencez par choisir
+                un vase propre et remplissez-le d'eau fraîche. Assurez-vous de
+                retirer toutes les feuilles qui tremperont dans l'eau, car cela
+                peut favoriser la croissance bactérienne.
+              </p>
+              <p class="drop-shadow-md text-lg max-sm:drop-shadow-lg">
+                Coupez les tiges en biais avec des ciseaux propres pour
+                faciliter l'absorption de l'eau. Changez l'eau du vase tous les
+                deux jours et recoupez les tiges si nécessaire.
+              </p>
+              <p class="drop-shadow-md text-lg max-sm:drop-shadow-lg">
+                Évitez de placer les fleurs à proximité de fruits mûrissants,
+                car ils émettent de l'éthylène, ce qui peut accélérer le
+                flétrissement des fleurs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Accordeon questions section-->
+      <section
+        id="section-questions"
+        class="flex justify-center flex-col items-center p-3 h-[50vh] mb-[20vh] min-h-[600px]"
+      >
+        <div class="inline-block mb-[10vh]">
+          <h3 class="text-2xl font-bold">Questions fréquentes</h3>
+          <div class="h-0.5 drop-shadow-md bg-rose-700"></div>
+        </div>
+
+        <div class="w-full max-w-[900px] mx-auto">
+          <div class="accordion">
+            <!--Element 1-->
+            <div
+              class="accordion-item border border-gray-300 cursor-pointer my-3"
+            >
+              <!--Title -->
+              <div class="flex justify-between items-center px-4 py-2">
+                <h2 class="accordion-title">
+                  Quelles sont les fleurs les plus populaires pour les mariages
+                  ?
+                </h2>
+                <img
+                  src="img/fleche-vers-le-haut.png"
+                  alt="flèche"
+                  class="w-5 transform transition-transform"
+                />
+                <!-- Ajout des classes pour la transformation et la transition -->
+              </div>
+              <!--Description-->
+              <div class="accordion-content px-4 py-2 hidden">
+                Les roses, les pivoines et les orchidées sont parmi les choix
+                les plus populaires pour les mariages en raison de leur beauté
+                intemporelle et de leur symbolisme romantique. Les roses
+                représentent l'amour, les pivoines symbolisent la prospérité et
+                la bonne fortune, tandis que les orchidées évoquent la grâce et
+                l'élégance.
+              </div>
+            </div>
+
+            <!--Element 2-->
+            <div
+              class="accordion-item border border-gray-300 cursor-pointer my-3"
+            >
+              <!--Title -->
+              <div class="flex justify-between items-center px-4 py-2">
+                <h2 class="accordion-title">
+                  Quelles fleurs conviennent le mieux à un jardin ombragé ?
+                </h2>
+                <img
+                  src="img/fleche-vers-le-haut.png"
+                  alt="flèche"
+                  class="w-5 transform transition-transform"
+                />
+                <!-- Ajout des classes pour la transformation et la transition -->
+              </div>
+              <!--Description-->
+              <div class="accordion-content px-4 py-2 hidden">
+                Les primevères, les fougères et les camélias sont des choix
+                excellents pour les jardins ombragés car ils prospèrent dans des
+                conditions de faible luminosité. Les primevères ajoutent des
+                touches de couleur vive, les fougères apportent une texture
+                luxuriante, tandis que les camélias offrent des fleurs
+                magnifiques et persistantes.
+              </div>
+            </div>
+
+            <!--Element 3-->
+            <div
+              class="accordion-item border border-gray-300 cursor-pointer my-3"
+            >
+              <!--Title -->
+              <div class="flex justify-between items-center px-4 py-2">
+                <h2 class="accordion-title">
+                  Comment prolonger la durée de vie des fleurs fraîchement
+                  coupées ?
+                </h2>
+                <img
+                  src="img/fleche-vers-le-haut.png"
+                  alt="flèche"
+                  class="w-5 transform transition-transform"
+                />
+                <!-- Ajout des classes pour la transformation et la transition -->
+              </div>
+              <!--Description-->
+              <div class="accordion-content px-4 py-2 hidden">
+                Pour prolonger la fraîcheur des fleurs coupées, il est important
+                de couper les tiges en biseau, de les placer dans de l'eau
+                fraîche avec un conservateur floral, et de changer l'eau tous
+                les deux jours. Évitez de les exposer à la lumière directe du
+                soleil ou à des courants d'air pour maintenir leur beauté plus
+                longtemps.
+              </div>
+            </div>
+
+            <!--Element 4-->
+            <div
+              class="accordion-item border border-gray-300 cursor-pointer my-3"
+            >
+              <!--Title -->
+              <div class="flex justify-between items-center px-4 py-2">
+                <h2 class="accordion-title">
+                  Quelles fleurs sont idéales pour un balcon ensoleillé ?
+                </h2>
+                <img
+                  src="img/fleche-vers-le-haut.png"
+                  alt="flèche"
+                  class="w-5 transform transition-transform"
+                />
+                <!-- Ajout des classes pour la transformation et la transition -->
+              </div>
+              <!--Description-->
+              <div class="accordion-content px-4 py-2 hidden">
+                Les géraniums, les pétunias et les verveines sont parmi les
+                meilleures options pour un balcon ensoleillé. Ces fleurs sont
+                robustes et peuvent tolérer les conditions chaudes et
+                ensoleillées. Les géraniums offrent une variété de couleurs
+                vives, les pétunias ajoutent une beauté éclatante, tandis que
+                les verveines fournissent une cascade de fleurs colorées.
+              </div>
+            </div>
+
+            <!--Element 5-->
+            <div
+              class="accordion-item border border-gray-300 cursor-pointer my-3"
+            >
+              <!--Title -->
+              <div class="flex justify-between items-center px-4 py-2">
+                <h2 class="accordion-title">
+                  Quels sont les avantages de l'utilisation de fleurs séchées
+                  dans la décoration intérieure ?
+                </h2>
+                <img
+                  src="img/fleche-vers-le-haut.png"
+                  alt="flèche"
+                  class="w-5 transform transition-transform"
+                />
+                <!-- Ajout des classes pour la transformation et la transition -->
+              </div>
+              <!--Description-->
+              <div class="accordion-content px-4 py-2 hidden">
+                Les fleurs séchées offrent plusieurs avantages dans la
+                décoration intérieure. Elles sont durables et peuvent durer
+                longtemps sans nécessiter d'entretien. De plus, elles ajoutent
+                une touche rustique et naturelle à n'importe quel espace. Les
+                fleurs séchées permettent également de conserver des souvenirs
+                spéciaux, car elles peuvent être faites à partir de fleurs de
+                mariage ou de moments précieux.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            const accordionItems = document.querySelectorAll(".accordion-item");
+
+            accordionItems.forEach((item) => {
+              item.addEventListener("click", () => {
+                const content = item.querySelector(".accordion-content");
+                const isHidden = content.classList.contains("hidden");
+                const arrowIcon = item.querySelector("img");
+
+                accordionItems.forEach((item) => {
+                  item
+                    .querySelector(".accordion-content")
+                    .classList.add("hidden");
+                  item.querySelector("img").classList.remove("rotate-180"); // Réinitialiser la rotation de toutes les flèches
+                });
+
+                if (isHidden) {
+                  content.classList.remove("hidden");
+                  arrowIcon.classList.add("rotate-180"); // Ajouter la classe pour faire tourner la flèche
+                } else {
+                  arrowIcon.classList.remove("rotate-180"); // Réinitialiser la rotation si l'accordéon est refermé
+                }
+              });
+            });
+          });
+        </script>
+      </section>
+
+      <!--Newsletter section-->
+      <section
+        class="flex flex-row-reverse justify-around items-center bg-gradient-to-br from-rose-50 to-rose-100 p-5 h-[50vh] min-h-[370px]"
+      >
+        <img
+          src="img/rose.jpg"
+          alt="rose"
+          class="w-[300px] h-[300px] object-cover drop-shadow-md max-lg:hidden"
+        />
+        <div class="flex justify-center flex-col">
+          <h2 class="mb-5 text-3xl font-bold drop-shadow-md">
+            S'abonner pour ne <span class="underline">rien manquer</span>
+          </h2>
+          <p class="pr-7">
+            Soyez toujours au courant des actualités florales ! Abonnez-vous dès
+            maintenant pour ne rien manquer.
+          </p>
+          <div class="flex items-center justify-between w-full">
+            <input
+              type="text"
+              placeholder="ex : flora@gmail.com"
+              class="p-3 mt-5 border w-full mr-5 h-16"
+            />
+            <button
+              type="submit"
+              class="bg-rose-700 border-2 border-rose-700 h-16 w-32 mt-10 text-white inline-block my-5 max-lg:rounded-md hover:border-black hover:text-black hover:bg-transparent transition-all duration-200 ease-in"
+            >
+              ENVOYER
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="bg-rose-900 text-white py-6">
+      <div class="container mx-auto flex justify-center">
+        <ul class="flex space-x-6 max-sm:flex-col max-md:text-center">
+          <li class="max-sm:mb-5">
+            <a href="#" class="hover:text-gray-400"
+              >Conditions générales d'utilisation</a
+            >
+          </li>
+          <li class="max-sm:mb-5">
+            <a href="#" class="hover:text-gray-400"
+              >Politique de confidentialité</a
+            >
+          </li>
+          <li>
+            <a href="#" class="hover:text-gray-400">Mentions légales</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
